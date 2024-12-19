@@ -1,0 +1,48 @@
+.services{
+    width:100%;
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  h1{
+    text-align: center;
+  }
+  .card{
+    width: 25%;
+    height: 35%;
+    text-align: center;
+    box-shadow: 0 0 3px black;
+  }
+  .serviceimg
+  {
+    width:250px;
+    height: 220px;
+    object-fit: contain;
+  }
+
+  .btnBox{
+    width: 650px;
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1em;
+   }
+   
+   .btn{
+   
+     border:2px soild #701e1e;
+     border-radius: 4em;
+     margin-top: -1.5em;
+     margin-right: 68em;
+     background-color: #aec78d;
+   }
+   .readMore{
+     display: inline-block;
+     font-size: 0.8em;
+     padding: 0.5em 0.5em;
+     text-decoration: none;
+     color:#301934;
+     width: 100px;
+     height: 5px;
+
+   }
